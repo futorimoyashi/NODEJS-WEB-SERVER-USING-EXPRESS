@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-web-server-using-express",
+  "version": "1.0.0",
+  "description": "Learn NodeJs from School of CodersX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futorimoyashi/NODEJS-WEB-SERVER-USING-EXPRESS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/futorimoyashi/NODEJS-WEB-SERVER-USING-EXPRESS/issues"
+  },
+  "homepage": "https://github.com/futorimoyashi/NODEJS-WEB-SERVER-USING-EXPRESS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
