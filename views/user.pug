@@ -1,10 +1,21 @@
-h1 Users
-a(href="/users/create") create user
-form(action="/users/search", method="GET")
-	input(type="text", name="q")
-	button Search
-ul 
-	each user in users
-		li=  user.name
-		span &nbsp;
-		a(href='/users/' + user.id) view
+extends layouts/common
+
+block content
+	h1
+		span.mr-3 Users
+		a.btn.btn-primary(href="/users/create") create user
+	.d-flex.col-9.offset-2
+		form(action="/users/search", method="GET", class="col-8 d-flex ml-auto")
+			input(type="text", name="q", class="form-control")
+			button(class="btn btn-outline-success ml-2") Search
+	table.table.table-striped
+		tr
+			th Name
+			th Phone
+			th Action
+		each user in users
+			tr
+				td= user.name
+				td= user.phone
+				td
+					a.btn-light(href='/users/' + user.id) View
