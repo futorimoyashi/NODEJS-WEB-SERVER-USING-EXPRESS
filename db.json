@@ -2,50 +2,17 @@
   "users": [
     {
       "name": "Tùng nè",
+      "phone": "123123",
+      "email": "a1@gmail.com",
+      "password": "123",
       "id": "CsQRXbR8f"
     },
     {
-      "name": "DHUTokyo",
-      "id": "JQFcy_fVU"
-    },
-    {
-      "name": "Human Resource",
-      "id": "ik19B33MH"
-    },
-    {
-      "name": "luv",
-      "id": "wWCOWigDS"
-    },
-    {
-      "name": "Macbook",
-      "id": "GXdcJAICi"
-    },
-    {
-      "name": "blitz",
-      "id": "3kGrVrzcw"
-    },
-    {
-      "name": "anaconda",
-      "id": "hwJ3FytTg"
-    },
-    {
       "name": "codersx",
+      "phone": "123456",
+      "email": "a2@gmail.com",
+      "password": "123",
       "id": "i66qxg5q7"
-    },
-    {
-      "name": "drama",
-      "phone": "123123",
-      "id": "x_b6-q3_6"
-    },
-    {
-      "name": "winstreak",
-      "phone": "",
-      "id": "ObiJA6bC9"
-    },
-    {
-      "name": "cung xanh",
-      "phone": "123",
-      "id": "vq-dC3Pce"
     }
   ]
 }

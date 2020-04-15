@@ -1,7 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
 
 const userRoute = require('./routes/user.route');
+const authRoute = require('./routes/auth.route');
+
+var authMiddleware = require('./middlewares/auth.middleware');
 
 const port = 8080;
 
@@ -11,7 +15,7 @@ app.set('views', './views');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use(cookieParser());
 app.use(express.static('public'))
 
 app.get('/', function(req, res) {
@@ -20,7 +24,8 @@ app.get('/', function(req, res) {
 	});
 });
 
-app.use('/users', userRoute);
+app.use('/users', authMiddleware.requireAuth, userRoute);
+app.use('/auth', authRoute);
 
 app.listen(port, function() {
 	console.log('Application is running on 8080 port')
