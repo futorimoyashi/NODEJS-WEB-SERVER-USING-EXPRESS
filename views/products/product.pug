@@ -1,0 +1,16 @@
+extends ../layouts/common
+
+block content
+	table.table.table-striped
+		tr
+			th Id
+			th Name
+			th Image
+			th Description
+		each prod in prods
+			tr
+				td= prod.id
+				td= prod.name
+				td
+					img(src=prod.image, width="32")
+				td= prod.description

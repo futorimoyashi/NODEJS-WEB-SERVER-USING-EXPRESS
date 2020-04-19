@@ -7,11 +7,14 @@ block content
       each error in errors
         .alert.alert-danger= error
 
-    form(action="/users/create", method="POST")
+    form(action="/users/create", method="POST", enctype="multipart/form-data")
       .form-group
         label Name
-        input(name="name", type="text", class="form-control", value=values ? values.name : "")
+        input#name(name="name", type="text", class="form-control", value=values ? values.name : "")
       .form-group
         label Phone
-        input(name="phone", type="text", class="form-control", value=values ? values.phone : "")
+        input#phone(name="phone", type="text", class="form-control", value=values ? values.phone : "")
+      .form-group
+        label Avatar
+        input#avatar(name="avatar", type="file", class="form-control-file")
       button.btn.btn-primary Create 	
