@@ -27,128 +27,6 @@
       "avatar": "uploads\\99501694e2ee0e250ada512784324c76"
     }
   ],
-  "products": [
-    {
-      "id": "0aef8cc3-9be4-4d5e-8d62-049dcc22e1e3",
-      "name": "Syrup - Monin, Irish Cream",
-      "image": "https://loremflickr.com/320/240",
-      "description": "nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula"
-    },
-    {
-      "id": "a29bf0ae-a8d6-49da-ac4e-da5ba48f3589",
-      "name": "Pork - Bacon, Sliced",
-      "image": "https://loremflickr.com/320/240",
-      "description": "dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis"
-    },
-    {
-      "id": "97153753-448b-4873-9244-8fcad74afe6a",
-      "name": "Appetizer - Mango Chevre",
-      "image": "https://loremflickr.com/320/240",
-      "description": "at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et"
-    },
-    {
-      "id": "6eaf11f4-4741-4e69-9d49-00e798d543ea",
-      "name": "Squash - Acorn",
-      "image": "https://loremflickr.com/320/240",
-      "description": "sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed"
-    },
-    {
-      "id": "853d099d-c42e-4b1b-9fd1-21e575e17bd8",
-      "name": "Wine - Touraine Azay - Le - Rideau",
-      "image": "https://loremflickr.com/320/240",
-      "description": "nulla ac enim in tempor turpis nec euismod scelerisque quam"
-    },
-    {
-      "id": "2ed754e9-7e55-4ba8-8191-94e54840fbd6",
-      "name": "Appetizer - Smoked Salmon / Dill",
-      "image": "https://loremflickr.com/320/240",
-      "description": "vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus"
-    },
-    {
-      "id": "dfd7f6b5-70b5-49d7-bf87-9683fda0c8ad",
-      "name": "Tomatoes Tear Drop Yellow",
-      "image": "https://loremflickr.com/320/240",
-      "description": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam"
-    },
-    {
-      "id": "cf78b7d7-91bd-46db-a3bb-2eeba47f8d6d",
-      "name": "Wine - White, French Cross",
-      "image": "https://loremflickr.com/320/240",
-      "description": "platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida"
-    },
-    {
-      "id": "453681eb-1a26-486d-b516-9bbb810bd467",
-      "name": "Fish - Halibut, Cold Smoked",
-      "image": "https://loremflickr.com/320/240",
-      "description": "proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante"
-    },
-    {
-      "id": "10fe5289-45b9-4729-87bc-55cc3e81c662",
-      "name": "Mushroom - Portebello",
-      "image": "https://loremflickr.com/320/240",
-      "description": "ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit"
-    },
-    {
-      "id": "2dcce7a5-5695-4def-8494-b66b53dd8ee4",
-      "name": "Soup - Campbells, Cream Of",
-      "image": "https://loremflickr.com/320/240",
-      "description": "sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet"
-    },
-    {
-      "id": "20e2fb48-c894-427c-8e22-eb3b458d6e30",
-      "name": "Bread - Focaccia Quarter",
-      "image": "https://loremflickr.com/320/240",
-      "description": "ut volutpat sapien arcu sed augue aliquam erat volutpat in congue"
-    },
-    {
-      "id": "131eba7f-e815-4579-a1f5-7c75cc190e97",
-      "name": "Seaweed Green Sheets",
-      "image": "https://loremflickr.com/320/240",
-      "description": "vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus"
-    },
-    {
-      "id": "28b14bc8-32bd-4c7d-aa3e-393145a237a3",
-      "name": "Water - Spring Water 500ml",
-      "image": "https://loremflickr.com/320/240",
-      "description": "cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum"
-    },
-    {
-      "id": "07bf5de0-da34-4bc5-940d-922514802897",
-      "name": "Curry Paste - Madras",
-      "image": "https://loremflickr.com/320/240",
-      "description": "quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id"
-    },
-    {
-      "id": "44cd6385-a3d3-4902-9034-07ab544bb6e6",
-      "name": "Juice - Orange",
-      "image": "https://loremflickr.com/320/240",
-      "description": "massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in"
-    },
-    {
-      "id": "444eb4b5-b3b3-4e4d-945e-e3fa6b2bcf9f",
-      "name": "Lemon Pepper",
-      "image": "https://loremflickr.com/320/240",
-      "description": "blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum"
-    },
-    {
-      "id": "b4f0cb0a-ab30-4ab5-8eb0-ef634cb9135c",
-      "name": "Pork - Kidney",
-      "image": "https://loremflickr.com/320/240",
-      "description": "integer ac leo pellentesque ultrices mattis odio donec vitae nisi"
-    },
-    {
-      "id": "97bff2bd-ded3-4acc-9668-72e8a44e9974",
-      "name": "Gelatine Leaves - Bulk",
-      "image": "https://loremflickr.com/320/240",
-      "description": "ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum"
-    },
-    {
-      "id": "c9174cc1-1504-4491-b8fa-f2e5db6c2ced",
-      "name": "Wine - Shiraz Wolf Blass Premium",
-      "image": "https://loremflickr.com/320/240",
-      "description": "nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a"
-    }
-  ],
   "sessions": [
     {
       "id": "xRBwRlR1w"
@@ -161,6 +39,15 @@
     },
     {
       "id": "Pcc9mJmwt"
+    },
+    {
+      "id": "jz1wGT-d4"
+    },
+    {
+      "id": "8ODyJcgx1"
+    },
+    {
+      "id": "IbHFCTtx7"
     }
   ]
 }

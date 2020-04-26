@@ -10,6 +10,8 @@ const userRoute = require('./routes/user.route');
 const authRoute = require('./routes/auth.route');
 const prodRoute = require('./routes/prod.route');
 
+const apiProductRoute = require('./api/routes/product.route');
+
 var authMiddleware = require('./middlewares/auth.middleware');
 var sessionMiddleware = require('./middlewares/session.middleware');
 
@@ -35,6 +37,8 @@ app.get('/', function(req, res) {
 app.use('/users', authMiddleware.requireAuth, userRoute);
 app.use('/auth', authRoute);
 app.use('/product', prodRoute);
+
+app.use('/api/products', apiProductRoute);
 
 app.listen(port, function() {
 	console.log('Application is running on 8080 port')
