@@ -4,7 +4,8 @@
   "description": "Learn NodeJs from School of CodersX",
   "main": "index.js",
   "scripts": {
-    "start": "set ss=123i0123&&nodemon --inspect index",
+    "dev": "set ss=123i0123&&nodemon --inspect index",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
