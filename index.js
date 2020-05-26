@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/express-demo');
+mongoose.connect(process.env.MONGODB_URI);
 
 const userRoute = require('./routes/user.route');
 const authRoute = require('./routes/auth.route');
@@ -15,7 +15,7 @@ const apiProductRoute = require('./api/routes/product.route');
 var authMiddleware = require('./middlewares/auth.middleware');
 var sessionMiddleware = require('./middlewares/session.middleware');
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 const app = express();
 app.set('view engine', 'pug');
