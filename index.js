@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
-// const cors = require('cors');
+const cors = require('cors');
 
 mongoose.connect(process.env.MONGODB_URI);
 
@@ -29,7 +29,7 @@ app.use(sessionMiddleware);
 
 app.use(express.static('public'))
 
-// app.use(cors)
+app.use(cors())
 
 app.get('/', function(req, res) {
 	res.render('index', {
